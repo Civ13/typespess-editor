@@ -1,5 +1,5 @@
-# bluespess-editor package
+# typespess-editor package
 
-A short description of your package.
+This is a map editor for Typespess. You need **Atom** installed for it to work: [Atom](https://atom.io/)
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+Run `apm-link` on this folder to link it to your Atom packages, then run `apm install` to add the dependencies.
