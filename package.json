@@ -9,25 +9,9 @@
 	"engines": {
 		"atom": ">=1.0.0 <2.0.0"
 	},
-	"atomTranspilers": [
-		{
-			"transpiler": "atom-ts-transpiler",
-			"glob": "{!(node_modules)/**/,}*.ts?(x)",
-			"options": {
-				"compilerOptions": {},
-				"cacheKeyFiles": [],
-				"verbose": false
-			}
-		}
-	],
 	"dependencies": {
-		"atom": "^1.4.1",
-		"atom-ts-transpiler": "^1.5.3",
-		"electron": "^9.4.3",
-		"etch": "^0.9.0",
-		"fs-plus": "^3.0.0",
-		"json-stable-stringify": "^1.0.1",
-		"typescript": "^4.1.3"
+		"fs-plus": "^3.1.1",
+		"json-stable-stringify": "^1.0.1"
 	},
 	"consumedServices": {
 		"status-bar": {
@@ -35,14 +19,5 @@
 				"^1.0.0": "consumeStatusBar"
 			}
 		}
-	},
-	"devDependencies": {
-		"@typescript-eslint/eslint-plugin": "^4.14.2",
-		"eslint": "^7.19.0",
-		"eslint-config-standard": "^14.1.1",
-		"eslint-plugin-import": "^2.22.1",
-		"eslint-plugin-node": "^11.1.0",
-		"eslint-plugin-promise": "^4.2.1",
-		"eslint-plugin-standard": "^4.1.0"
 	}
 }
