@@ -4,65 +4,6 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
-.typespess-editor {
-	.icon-state-list {
-		position: absolute;
-		left: 0;
-		top: 0;
-		width: 100%;
-		height: 100%;
-		padding: 10px;
-		background-color: @pane-item-background-color;
-		overflow: auto;
-
-		.icon-state-list-item {
-			margin: 5px;
-			padding: 10px;
-			display: inline-block;
-			cursor: pointer;
-			position: relative;
-
-			.icon-state-img {
-				margin: 0px auto;
-			}
-			
-			.icon-state-label {
-				color: @text-color-highlight;
-				text-overflow: ellipsis;
-				overflow-wrap: break-word;
-				overflow: hidden;
-				text-align: center;
-				height:4em;
-				padding: 0;
-				display: block;
-			}
-		}
-	}
-
-	.dirs {
-		width: 32px;
-		height: 32px;
-		background-image: url(atom://typespess-editor/images/dirs.png);
-		display: inline-block;
-	}
-	.dir0  {background-position:    0px 0;.dirs;}
-	.dir1  {background-position:  -32px 0;.dirs;}
-	.dir2  {background-position:  -64px 0;.dirs;}
-	.dir3  {background-position:  -96px 0;.dirs;}
-	.dir4  {background-position: -128px 0;.dirs;}
-	.dir5  {background-position: -160px 0;.dirs;}
-	.dir6  {background-position: -192px 0;.dirs;}
-	.dir7  {background-position: -224px 0;.dirs;}
-	.dir8  {background-position: -256px 0;.dirs;}
-	.dir9  {background-position: -288px 0;.dirs;}
-	.dir10 {background-position: -320px 0;.dirs;}
-	.dir11 {background-position: -352px 0;.dirs;}
-	.dir12 {background-position: -384px 0;.dirs;}
-	.dir13 {background-position: -416px 0;.dirs;}
-	.dir14 {background-position: -448px 0;.dirs;}
-	.dir15 {background-position: -480px 0;.dirs;}
-}
-
 .map-editor {
 	.mapcanvas {
 		position: absolute;
@@ -81,6 +22,7 @@
 	overflow: auto;
 	z-index: 2;
 	-webkit-user-select: none;
+	user-select: none;
 
 	display: flex;
 	flex-direction: column;
