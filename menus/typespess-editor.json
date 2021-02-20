@@ -1,12 +1,4 @@
 {
-	"context-menu": {
-		"atom-text-editor": [
-			{
-				"label": "Toggle typespess-editor",
-				"command": "typespess-editor:toggle"
-			}
-		]
-	},
 	"menu": [
 		{
 			"label": "Packages",
@@ -14,10 +6,6 @@
 				{
 					"label": "Typespess",
 					"submenu": [
-						{
-							"label": "Toggle Editor Mode",
-							"command": "typespess-editor:toggle"
-						},
 						{
 							"label": "Reload Environment",
 							"command": "typespess-editor:reload-env"
