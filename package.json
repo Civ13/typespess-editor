@@ -1,10 +1,10 @@
 {
 	"name": "typespess-editor",
 	"main": "./lib/typespess-editor",
-	"version": "0.0.1",
-	"description": "A short description of your package",
+	"version": "0.1.0",
+	"description": "Map editor for Civ13-typespess.",
 	"keywords": [],
-	"repository": "https://github.com/taislin/typespess-editor",
+	"repository": "https://github.com/civ13/typespess-editor",
 	"license": "MIT",
 	"engines": {
 		"atom": ">=1.0.0 <2.0.0"
@@ -29,12 +29,7 @@
 		],
 		"parserOptions": {
 			"ecmaVersion": 11
-		},
-		"rules": {
-			"@typescript-eslint/no-var-requires": 0,
-			"@typescript-eslint/no-explicit-any": 0
 		}
-		
 	},
 	"consumedServices": {
 		"status-bar": {
